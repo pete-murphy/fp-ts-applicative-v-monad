@@ -1,13 +1,16 @@
 {
-  "main.css": "/fp-ts-applicative-v-monad/static/css/main.092736f9.chunk.css",
-  "main.js": "/fp-ts-applicative-v-monad/static/js/main.03238eca.chunk.js",
-  "main.js.map": "/fp-ts-applicative-v-monad/static/js/main.03238eca.chunk.js.map",
-  "static/js/1.d41b8b52.chunk.js": "/fp-ts-applicative-v-monad/static/js/1.d41b8b52.chunk.js",
-  "static/js/1.d41b8b52.chunk.js.map": "/fp-ts-applicative-v-monad/static/js/1.d41b8b52.chunk.js.map",
+  "main.css": "/fp-ts-applicative-v-monad/static/css/main.a18b2a07.chunk.css",
+  "main.js": "/fp-ts-applicative-v-monad/static/js/main.2d5097e5.chunk.js",
+  "main.js.map": "/fp-ts-applicative-v-monad/static/js/main.2d5097e5.chunk.js.map",
+  "static/css/1.c231636b.chunk.css": "/fp-ts-applicative-v-monad/static/css/1.c231636b.chunk.css",
+  "static/js/1.4af2f58f.chunk.js": "/fp-ts-applicative-v-monad/static/js/1.4af2f58f.chunk.js",
+  "static/js/1.4af2f58f.chunk.js.map": "/fp-ts-applicative-v-monad/static/js/1.4af2f58f.chunk.js.map",
   "runtime~main.js": "/fp-ts-applicative-v-monad/static/js/runtime~main.d4f2985a.js",
   "runtime~main.js.map": "/fp-ts-applicative-v-monad/static/js/runtime~main.d4f2985a.js.map",
-  "static/css/main.092736f9.chunk.css.map": "/fp-ts-applicative-v-monad/static/css/main.092736f9.chunk.css.map",
+  "static/media/index.css": "/fp-ts-applicative-v-monad/static/media/roboto-mono-latin-700italic.b933305e.woff",
+  "static/css/main.a18b2a07.chunk.css.map": "/fp-ts-applicative-v-monad/static/css/main.a18b2a07.chunk.css.map",
+  "static/css/1.c231636b.chunk.css.map": "/fp-ts-applicative-v-monad/static/css/1.c231636b.chunk.css.map",
   "index.html": "/fp-ts-applicative-v-monad/index.html",
-  "precache-manifest.58b5f49f07fa7c6aefabc5814d3dc94b.js": "/fp-ts-applicative-v-monad/precache-manifest.58b5f49f07fa7c6aefabc5814d3dc94b.js",
+  "precache-manifest.d61d5d70a6c6abb92d3083901c69400d.js": "/fp-ts-applicative-v-monad/precache-manifest.d61d5d70a6c6abb92d3083901c69400d.js",
   "service-worker.js": "/fp-ts-applicative-v-monad/service-worker.js"
 }
