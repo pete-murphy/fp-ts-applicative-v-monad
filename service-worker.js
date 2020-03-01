@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fp-ts-applicative-v-monad/precache-manifest.d61d5d70a6c6abb92d3083901c69400d.js"
+  "/fp-ts-applicative-v-monad/precache-manifest.ec8a95bcc725b24261f8b4758e9a0d01.js"
 );
 
 workbox.clientsClaim();
