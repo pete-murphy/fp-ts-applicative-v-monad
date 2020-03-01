@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/fp-ts-applicative-v-monad/static/js/runtime~main.d4f2985a.js"
   },
   {
-    "revision": "03238eca30a8c42ef5b3",
-    "url": "/fp-ts-applicative-v-monad/static/js/main.03238eca.chunk.js"
+    "revision": "ae092eb30392ae876895",
+    "url": "/fp-ts-applicative-v-monad/static/js/main.ae092eb3.chunk.js"
   },
   {
     "revision": "d41b8b529b4790a56fba",
     "url": "/fp-ts-applicative-v-monad/static/js/1.d41b8b52.chunk.js"
   },
   {
-    "revision": "03238eca30a8c42ef5b3",
-    "url": "/fp-ts-applicative-v-monad/static/css/main.092736f9.chunk.css"
+    "revision": "ae092eb30392ae876895",
+    "url": "/fp-ts-applicative-v-monad/static/css/main.0fa9daab.chunk.css"
   },
   {
-    "revision": "e68672223f42b1e241ad9b53b8134750",
+    "revision": "992577070e492532b77e333178083f9c",
     "url": "/fp-ts-applicative-v-monad/index.html"
   }
 ];
