@@ -1,0 +1,198 @@
+:root {
+  --background: rgb(40, 44, 52);
+  --text: white;
+  --code: #fac86330;
+  --code-text: #353b45;
+  --char: #d8dee9;
+  --comment: #b2b2b2;
+  --keyword: #c5a5c5;
+  --line-highlight: #353b45;
+  --primitive: #5a9bcf;
+  --string: #8dc891;
+  --variable: #d7deea;
+  --boolean: #ff8b50;
+  --punctuation: #88c6be;
+  --tag: #fc929e;
+  --function: #79b6f2;
+  --class-name: #fac863;
+  --class-name-lt: #fac86333;
+  --method: #6699cc;
+  --operator: #fc929e;
+  --border-radius: 5px;
+
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 4rem;
+}
+
+h4 {
+  margin-top: 2rem;
+}
+
+main {
+  font-family: sans-serif;
+  max-width: 960px;
+  width: 90vw;
+  margin: 10rem auto;
+}
+
+p {
+  line-height: 1.6;
+  margin: 2rem 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+code {
+  line-height: 1;
+  font-family: "Roboto Mono", "SF Mono";
+  border-radius: 0.3em;
+  font-size: 0.9rem;
+  background: var(--class-name-lt);
+  padding: 0.15em 0.2em 0.05em;
+  white-space: normal;
+}
+
+h4 {
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+}
+
+table {
+  /* border-spacing: 1rem; */
+  margin: 1rem 0;
+  border-collapse: collapse;
+}
+
+thead {
+  text-align: left;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid black;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+td,
+th {
+  padding: 0.4rem 1.2rem;
+}
+
+.sourceCode > span {
+  display: block;
+  height: 1.4rem;
+}
+
+.CodeBlock {
+  border-radius: var(--border-radius);
+  padding: 1rem 4rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--background);
+  margin: 0 -4rem;
+}
+
+.buttons * {
+  /* outline: 3px solid red; */
+}
+
+.buttons {
+  /* outline: 3px solid yellow; */
+  width: 100%;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  margin: 1rem 0 2rem;
+}
+
+button {
+  font-weight: 600;
+  font-size: 0.8rem;
+  background: transparent;
+  /* border: none; */
+  border: 1px solid var(--comment);
+  padding: 0.4rem 1.2rem;
+  color: var(--comment);
+}
+
+button + button {
+  border-left: none;
+}
+
+button:first-of-type {
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+}
+button:last-of-type {
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+button.active {
+  background: var(--comment);
+  color: var(--background);
+}
+
+.sourceCode {
+  color: var(--comment);
+}
+.sourceCode code {
+  padding: 0;
+  background: none;
+  white-space: pre;
+  font-size: 1rem;
+}
+/* // KeyWordTok */
+.sourceCode .kw {
+  color: var(--keyword);
+}
+/* // DataTypeTok */
+.sourceCode .dt {
+  color: var(--class-name);
+}
+
+/* // DecValTok (decimal value), BaseNTok, FloatTok */
+.sourceCode .dv,
+.sourceCode .bn,
+.sourceCode .fl {
+  color: var(--primitive);
+}
+/* // CharTok */
+.sourceCode .ch {
+  color: var(--char);
+}
+/* // StringTok */
+.sourceCode .st {
+  color: var(--string);
+}
+/* // CommentTok */
+.sourceCode .co {
+  color: var(--comment);
+}
+/* // OtherTok */
+.sourceCode .ot {
+  color: var(--comment);
+}
+/* // AlertTok */
+.sourceCode .al {
+  color: var(--class-name);
+  font-weight: bold;
+}
+/* // FunctionTok */
+.sourceCode .fu {
+  color: var(--function);
+}
+/* // RegionMarkerTok */
+.sourceCode .re {
+}
+/* // ErrorTok */
+.sourceCode .er {
+  color: #d30102;
+  font-weight: bold;
+}
